@@ -5,15 +5,15 @@ public class Main {
         int firstDep = 100;
         int secondDep = 1100;
 
-        int BonusRuble;
+        int bonusRuble;
         if (secondDep > 1000) {
-            BonusRuble = secondDep / 100;
+            bonusRuble = secondDep / 100;
         } else {
-            BonusRuble = 0;
+            bonusRuble = 0;
         }
-        int finalScore = firstDep + secondDep + BonusRuble;
+        int finalScore = firstDep + secondDep + bonusRuble;
 
         System.out.println("Итоговый счёт:" + finalScore);
-        System.out.println("Количество бонусных рублей:" + BonusRuble);
+        System.out.println("Количество бонусных рублей:" + bonusRuble);
     }
 }
